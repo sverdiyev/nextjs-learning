@@ -44,7 +44,7 @@ export async function getStaticProps() {
   return {
     props: { meetups: meetups },
     // props: { meetups: loadedMeetups },
-    // revalidate: 20,
+    revalidate: 20,
   };
 }
 
